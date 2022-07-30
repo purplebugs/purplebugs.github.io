@@ -32,7 +32,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background: var(--colour-aqua);
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 a {
@@ -40,8 +40,7 @@ a {
 }
 h1,
 h2,
-h3,
-h4 {
+h3 {
   letter-spacing: var(--spacing);
   line-height: 1.25;
   margin-bottom: 0.75rem;
@@ -56,11 +55,8 @@ h2 {
 h3 {
   font-size: 1.5rem;
 }
-h4 {
-  font-size: 1rem;
-}
 p, img {
-  margin-bottom: 1.25rem;
+  margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 800px) {
@@ -73,17 +69,12 @@ p, img {
   h3 {
     font-size: 1.75rem;
   }
-  h4 {
-    font-size: 1rem;
-  }
   body {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   h1,
   h2,
-  h3,
-  h4 {
-    color:  var(--colour-pink);
+  h3 {
     line-height: 1;
   }
 }
@@ -111,7 +102,7 @@ main {
 
 .container {
   width: 90vw;
-  margin: 5rem 0;
+  margin: 2rem 0;
   max-width: var(--fixed-width);
   background: var(--colour-white);
   border-radius: var(--radius);
